@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRU-LRU Cache Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>MRU-LRU Cache Simulator</h1>
+        <div class="input-container">
+            <input type="number" id="cache-size-input" placeholder="Enter Cache Size" />
+            <button onclick="setCacheSize()" class="put1">Set Cache Size</button>
+        </div>
+        <div class="input-container">
+            <input type="number" id="cache-input" placeholder="Enter number" />
+            <button onclick="putElement()" class="put">Put</button>
+            <button onclick="getElement()" class="put">Get</button>
+        </div>
+        <div class="cache-container" id="cache-display"></div>
+    </div>
+</body>
+
+</html>
