@@ -1,6 +1,6 @@
 MRU-LRU Cache Visualizer 🚀
 Overview 📝
-The MRU-LRU Cache Visualizer is an interactive web-based tool that demonstrates how Most Recently Used (MRU) and Least Recently Used (LRU) cache policies work. This visual simulator provides hands-on experience with cache operations.
+The MRU-LRU Cache simulator  is an interactive web-based tool that demonstrates how Most Recently Used (MRU) and Least Recently Used (LRU) cache policies work. This visual simulator provides hands-on experience with cache operations.
 Features ✨
 ✅ Set a custom cache size dynamically.
 ✅ Add elements using the Put operation.
